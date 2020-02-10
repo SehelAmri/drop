@@ -9,20 +9,32 @@ body{
 #header{
    
     font-size: 5vmax;
-    font-family: 'Nunito';
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 900;
 }
 #login-form{
-    width: 70vw;
-     height: 7vh;
+    width: 20vw;
+     height: 6vh;
      border-radius: 1%; 
      background-color: rgb(218, 212, 212); 
      opacity: 50%; 
      border: none;
+     font-size: 1.5vmax;
 }
 #body-part{
     position: absolute;
-    top: 20vh;
+    top: 0vh;
+    right: 5vw;
+    width: 20vw;
+    height: 100vh;
+    border-left: rgb(163, 158, 158) 1px solid;
+    padding-left: 6vw;
+}
+#linker{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 5vh;
 }
 ::placeholder{
     color: rgb(51, 48, 48);
